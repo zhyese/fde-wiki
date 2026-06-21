@@ -25,7 +25,9 @@ jobs:
         with:
           node-version: 20
           cache: npm
-      - run: npm ci
+      # 用 npm install 而非 npm ci：CI 的 node npm 与本地解析传递依赖(search-insights 等)不一致，
+      # npm ci 对 lock 完整性零容忍会失败；本站仅锁 vitepress，install 足够鲁棒。
+      - run: npm install --no-fund --no-audit
       # 部署到项目页 https://<user>.github.io/fde-report-wiki/ ，base 设为 /fde-report-wiki/
       - run: npm run split
         env:
