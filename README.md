@@ -1,13 +1,5 @@
 # FDE-Wiki
 
-> FDE 全球市场与全行业落地调研报告(2026)· VitePress 驱动的分章节 Wiki
-
-[![VitePress](https://img.shields.io/badge/VitePress-1.6-646cff)](https://vitepress.dev) [![Deploy](https://img.shields.io/badge/部署-纯静态-success)](#-部署)
-
-把一份约 **32 万字**的单一巨型 Markdown 调研报告,构建成可搜索、可交叉跳转、带标签与公司索引的 VitePress 分章节 Wiki。**原始报告文件只读、从不修改**,所有页面由 `scripts/split.mjs` 自动拆分生成。
-
-报告围绕 **FDE(Forward Deployed Engineer,前沿部署工程师)** 这一新兴角色,系统覆盖其范式起源、全球市场、工作方法论、全行业落地与能力体系——共 **4 篇 · 23 章正文 + 62 个深度专题 + 附录**。
-
 ## 🌐 在线访问
 
 | 站点 | 地址 |
